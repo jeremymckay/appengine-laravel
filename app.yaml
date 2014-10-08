@@ -1,0 +1,32 @@
+application: jeremy-mckay
+version: 1
+runtime: php
+api_version: 1
+threadsafe: true
+
+handlers:
+
+- url: /favicon\.ico
+  static_files: public/favicon.ico
+  upload: public/favicon\.ico
+
+- url: /assets/(.*\.(htm$|html$|css$|js$|png$|woff$|ttf$|eot$|svg$|jpg$))
+  static_files: public/assets/\1
+  upload: public/assets/(.*\.(htm$|html$|css$|js$|png$|woff$|ttf$|eot$|svg$|jpg$))
+  application_readable: true
+
+- url: /.*
+  script: public/index.php
+
+env_variables:
+# change these values as appropriate:
+ DEVELOPMENT_DB_HOST: 'localhost'
+ DEVELOPMENT_DB_USERNAME: 'homestead'
+ DEVELOPMENT_DB_PASSWORD: 'secret'
+ DEVELOPMENT_DB_NAME: 'authapp'
+ DEVELOPMENT_DB_PORT: '33060'
+#X06J2ugsJSaPEMiklszp
+ PRODUCTION_CLOUD_SQL_INSTANCE: '/cloudsql/jeremy-mckay:jeremy-mckay'
+ PRODUCTION_DB_USERNAME: 'root'
+ PRODUCTION_DB_PASSWORD: ''
+ PRODUCTION_DB_NAME: 'laroux'
