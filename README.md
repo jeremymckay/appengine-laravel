@@ -40,3 +40,20 @@ public function bindInstallPaths(array $paths)
 ```
 
 So If you rerun composer up, make sure to make the above changes.  Or the project will not run on appengine
+
+references
+
+Project files came from lynda.com (Joseph Lowery)
+http://www.lynda.com/Laravel-tutorials/Up-Running-Laravel/166513-2.html
+
+Google Appengine Req
+Download google appengine sdk
+https://cloud.google.com/appengine/downloads
+Download google cloud sdk
+https://cloud.google.com/sdk/
+
+Google Appengine Ref
+https://gae-php-tips.appspot.com/2013/10/22/getting-started-with-laravel-on-php-for-app-engine/
+
+
+
