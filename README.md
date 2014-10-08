@@ -2,7 +2,8 @@ appengine-laravel
 =================
 
 Short example or setting up laravel to run on Google Appengine.
-Googel cheat sheet is here http://bit.ly/1vNrreL
+
+*Google cheat sheet is here http://bit.ly/1vNrreL
 
 I uploaded all the vendor files because one file
 
