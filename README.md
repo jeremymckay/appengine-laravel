@@ -12,7 +12,7 @@ I uploaded all the vendor files because one file
 
 Requires these changs to the bindInstallPaths function:
 
-<code>
+```
 public function bindInstallPaths(array $paths)
 {
     if (realpath($paths['app'])) {
@@ -38,6 +38,6 @@ public function bindInstallPaths(array $paths)
         }
     }
 }
-</code>
+```
 
-So If you rerun composer up, make sure to make the above changes.  Or teh project will not run on appengine
+So If you rerun composer up, make sure to make the above changes.  Or the project will not run on appengine
