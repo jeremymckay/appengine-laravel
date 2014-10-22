@@ -3,9 +3,9 @@ appengine-laravel
 
 Short example or setting up laravel to run on Google Appengine.
 
-* Google cheat sheet is here http://bit.ly/1vNrreL
+* Google cheat sheet is here http://bit.ly/1vNrreL  it also contains links to gist for all the files that need modification.
 
-I uploaded all the vendor files because one file, defeats the purpose of composer.  But will give you a runable example on download.
+If you use this example and do a composer up you will lose the changes below. 
 
 /vendor/laravel/framework/src/Illuminate/Foundation/Application.php
 
