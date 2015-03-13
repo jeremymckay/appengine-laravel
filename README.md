@@ -1,5 +1,5 @@
-appengine-laravel
-=================
+appengine-laravel  needs a laravel 5 update
+===========================================
 
 Short example or setting up laravel to run on Google Appengine.
 
